@@ -2,26 +2,128 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+body{
+    background-image: url(../../public/bg1.png);
+    background-color: #181818;
+    background-repeat: repeat;
+    background-size: 20% auto;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+@font-face {
+  font-family: 'Vogue';
+  src: url('../../public/Vogue.ttf') format('truetype');
+  /* Tambahkan format font lain jika diperlukan */
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.custom-text {
+  font-family: 'Vogue', sans-serif;
+}
+.border-section{
+  position: relative;
+  overflow: hidden;
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
+  border-color: #f6c682ff;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 0% 0% 3% 3%;
+  
+}
+.bg-overlay::before {
+  content: "";
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../../public/mandala-2.png'); /* Ganti dengan path ke gambar overlay Anda */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0px -350px;
+  opacity: 0.1; /* Sesuaikan dengan tingkat transparansi yang Anda inginkan */
+  z-index: -1;
+}
+.content-1{
+  position: relative;
+  overflow: hidden;
+  border-style: solid;
+  border-width: 2px 0px 0px 0px;
+  border-color: #F6C682;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  padding: 0% 0% 0% 0%;
+  border-radius: 3% 3% 0% 0%;
+  z-index: 1;
+  background-image: url(https://our-ceremony.com/wp-content/uploads/2021/10/sample1.jpg);
+  background-position: 0px -454px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.spacer{
+  height: 450px;
+}
+.overlay-content {
+  background-color: transparent;
+  background-image: linear-gradient(180deg, #00000000 33%, black 36%);
+  opacity: 1;
+  height: 200%; /* Menentukan tinggi dua kali dari elemen yang ada */
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: 0; /* Untuk memastikan overlay di belakang konten */
+}
+.bg-moment{
+  background-color:black;
+  background-image: url(https://our-ceremony.com/wp-content/uploads/2021/10/Dark-Classic-Decor7.png);
+  background-position: center left;
+  background-repeat: no-repeat;
+}
+.bg-moment-overlay{
+  background-image: url(https://our-ceremony.com/wp-content/uploads/2021/10/Dark-Classic-Decor8.png);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  opacity: 0.59;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+.section-bg-story{
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  background-image: url(../../public/love-story.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.border-top{
+  position: relative;
+  border-style: solid;
+  border-width: 2px 0px 2px 0px;
+  border-color: #F6C682 !important;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  padding: 0% 0% 0% 0%;
+  border-radius: 3% 3% 3% 3% !important;
+}
+.bg-rsvp{
+  background-image: url(https://our-ceremony.com/wp-content/uploads/2021/10/Dark-Classic-Decor8.png);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.bg-gift{
+  background-image: url(https://our-ceremony.com/wp-content/uploads/2021/10/Dark-Classic-Decor7.png);
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
 }
