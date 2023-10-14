@@ -14,7 +14,7 @@
     "aos": "^2.3.4",
     "clipboard-copy": "^4.0.1",
     "lightgallery": "^2.7.2",
-    "next": "13.5.4",
+    "next": "13.4.19",
     "react": "^18",
     "react-dom": "^18",
     "react-icons": "^4.11.0",

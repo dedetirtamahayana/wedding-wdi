@@ -45,11 +45,11 @@ const Undangan = ({ setIsPlaying, isPlaying }) => {
         </button>
       </div>
 
-      <div>
+      <div className=''>
         <Banner />
         <Groom />
         <Content />
-        {/* <Gallery /> */}
+        <Gallery />
         <LoveStory />
         <RSVP />
         <Gift />
