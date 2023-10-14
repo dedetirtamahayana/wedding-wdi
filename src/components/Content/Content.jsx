@@ -18,7 +18,7 @@ const Content = () => {
           <h2 className='text-3xl text-gold'>Hitung Mundur Acara</h2>
           <span>Acara Telah Berlangsung</span>
           <img
-            src='./line-art-fix.png'
+            src='./line-art.png'
             alt='line-art'
             className='w-96 items-center mx-auto my-8'
           />

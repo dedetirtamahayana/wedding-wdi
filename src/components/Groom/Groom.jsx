@@ -55,7 +55,7 @@ const Groom = () => {
       </div>
       <div className='my-5'>
         <img
-          src='./line-art-fix.png'
+          src='./line-art.png'
           alt='line-art'
           className='w-96 items-center mx-auto pb-7'
         />
