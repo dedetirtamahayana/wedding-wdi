@@ -12,12 +12,12 @@ const Gallery = () => {
   };
   return (
     <div className='container mx-auto  text-center'>
-      <div class='relative flex py-5 items-center'>
-        <div class='flex-grow border-t border-gold'></div>
-        <h2 class='flex-shrink mx-4 text-gold text-3xl custom-text'>
+      <div className='relative flex py-5 items-center'>
+        <div className='flex-grow border-t border-gold'></div>
+        <h2 className='flex-shrink mx-4 text-gold text-3xl custom-text'>
           Moment Kami
         </h2>
-        <div class='flex-grow border-t border-gold'></div>
+        <div className='flex-grow border-t border-gold'></div>
       </div>
 
       <div className='mx-auto flex justify-center items-center'>

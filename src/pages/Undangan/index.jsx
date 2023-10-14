@@ -45,7 +45,7 @@ const Undangan = ({ setIsPlaying, isPlaying }) => {
         </button>
       </div>
 
-      <div className=''>
+      <div>
         <Banner />
         <Groom />
         <Content />
