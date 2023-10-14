@@ -49,7 +49,7 @@ const Undangan = ({ setIsPlaying, isPlaying }) => {
         <Banner />
         <Groom />
         <Content />
-        <Gallery />
+        {/* <Gallery /> */}
         <LoveStory />
         <RSVP />
         <Gift />
