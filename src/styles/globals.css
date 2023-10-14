@@ -53,7 +53,7 @@ body{
   padding: 0% 0% 0% 0%;
   border-radius: 3% 3% 0% 0%;
   z-index: 1;
-  background-image: url(https://our-ceremony.com/wp-content/uploads/2021/10/sample1.jpg);
+  /* background-image: url(https://our-ceremony.com/wp-content/uploads/2021/10/sample1.jpg); */
   background-position: 0px -454px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -74,12 +74,12 @@ body{
 }
 .bg-moment{
   background-color:black;
-  background-image: url(https://our-ceremony.com/wp-content/uploads/2021/10/Dark-Classic-Decor7.png);
+  /* background-image: url(https://our-ceremony.com/wp-content/uploads/2021/10/Dark-Classic-Decor7.png); */
   background-position: center left;
   background-repeat: no-repeat;
 }
 .bg-moment-overlay{
-  background-image: url(https://our-ceremony.com/wp-content/uploads/2021/10/Dark-Classic-Decor8.png);
+  /* background-image: url(https://our-ceremony.com/wp-content/uploads/2021/10/Dark-Classic-Decor8.png); */
   background-position: bottom right;
   background-repeat: no-repeat;
   opacity: 0.59;
@@ -109,7 +109,7 @@ body{
   border-radius: 3% 3% 3% 3% !important;
 }
 .bg-rsvp{
-  background-image: url(https://our-ceremony.com/wp-content/uploads/2021/10/Dark-Classic-Decor8.png);
+  /* background-image: url(https://our-ceremony.com/wp-content/uploads/2021/10/Dark-Classic-Decor8.png); */
   background-position: bottom right;
   background-repeat: no-repeat;
   height: 100%;
@@ -118,7 +118,7 @@ body{
   left: 0;
 }
 .bg-gift{
-  background-image: url(https://our-ceremony.com/wp-content/uploads/2021/10/Dark-Classic-Decor7.png);
+  /* background-image: url(https://our-ceremony.com/wp-content/uploads/2021/10/Dark-Classic-Decor7.png); */
   background-position: bottom left;
   background-repeat: no-repeat;
   background-size: contain;
