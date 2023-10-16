@@ -55,9 +55,14 @@ const RSVP = () => {
     }
   };
   return (
-    <div className='mx-auto py-9 px-5 lg:px-0 lg:py-36 bg-rsvp '>
+    <div className='mx-auto py-9 px-5 lg:px-0 lg:py-24 bg-rsvp '>
       <div className='flex justify-center items-center '>
-        <div className='bg-black bg-opacity-60 rounded-2xl shadow-md p-6 md:p-8 lg:p-10 lg:w-3/4 text-center'>
+        <div
+          className='bg-black bg-opacity-60 rounded-2xl shadow-md p-6 md:p-8 lg:p-10 lg:w-3/4 text-center'
+          data-aos='flip-left'
+          data-aos-easing='ease-out-cubic'
+          data-aos-duration='2000'
+        >
           <form className='form' style={{ opacity: "100%" }}>
             <h2 className='text-3xl text-gold custom-text py-4'>
               Are You Attending?

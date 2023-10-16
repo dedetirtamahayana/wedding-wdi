@@ -12,7 +12,7 @@ import {
 
 const LoveStory = () => {
   return (
-    <div className='section-bg-story border-top border-bottom relative'>
+    <div className='section-bg-story border-top border-bottom relative px-5 lg:px-0'>
       <div className='bg-black bg-opacity-50 absolute inset-0'></div>
       <div className='text-center relative z-10 pt-8'>
         <h2 className='text-gold text-3xl custom-text my-9'>Our Love Story</h2>

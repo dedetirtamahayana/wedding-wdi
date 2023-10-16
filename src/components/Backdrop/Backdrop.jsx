@@ -1,6 +1,9 @@
 import React from "react";
+import { useRouter } from "next/router";
 
 const Backdrop = ({ onClick }) => {
+  const router = useRouter();
+  const { undangan } = router.query;
   return (
     <div className='fixed top-0 left-0 w-full h-full flex flex-col items-center justify-center'>
       <div
@@ -20,6 +23,7 @@ const Backdrop = ({ onClick }) => {
         </h1>
         <p>Undangan Pawiwahan</p>
         <p>Kepada Yth. Bapak/Ibu/Saudara/i</p>
+        <p>{undangan}</p>
       </div>
 
       <button

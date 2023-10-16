@@ -50,11 +50,10 @@ body{
   border-color: #F6C682;
   margin-top: 50px;
   margin-bottom: 0px;
-  padding: 0% 0% 0% 0%;
   border-radius: 3% 3% 0% 0%;
   z-index: 1;
   background-image: url(https://our-ceremony.com/wp-content/uploads/2021/10/sample1.jpg);
-  background-position: 0px -454px;
+  background-position: 0px -450px;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -105,7 +104,6 @@ body{
   border-color: #F6C682 !important;
   margin-top: 50px;
   margin-bottom: 0px;
-  padding: 0% 0% 0% 0%;
   border-radius: 3% 3% 3% 3% !important;
 }
 .bg-rsvp{
@@ -125,4 +123,21 @@ body{
   width: 100%;
   top: 0;
   left: 0;
+}
+@media (max-width: 767px) {
+  .content-1 {
+    background-position: 0px -65px;
+  }
+  .bg-overlay::before {
+    background-size: contain;
+    background-position: 0px -125px;
+  }
+  .spacer {
+    height: 200px;
+}
+}
+@media (min-width: 768px) and (max-width: 1180px) {
+  .content-1 {
+    background-position: 0px -144px !important;
+  }
 }

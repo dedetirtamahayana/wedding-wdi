@@ -1,16 +1,22 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {
   Card,
   CardHeader,
   CardBody,
-  CardFooter,
   Typography,
-  Tooltip,
 } from "@material-tailwind/react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 const Groom = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 800,
+      offset: 500,
+    });
+  }, []);
   return (
-    <div className='container mx-auto text-center my-24'>
-      <div className=' mb-5'>
+    <div className='container mx-auto text-center my-12 lg:my-24 overflow-hidden'>
+      <div className=' mb-10 lg:mb-5'>
         <h2 className='text-3xl text-gold custom-text'>Om Swastiastu</h2>
         <p className='text-white w-3/4 mx-auto'>
           Atas asung kerta wara nugraha Ida Sang Hyang Widhi Wasa, kami
@@ -18,8 +24,8 @@ const Groom = () => {
           Pawiwahan/Pernikahan kami
         </p>
       </div>
-      <div className='grid grid-cols-5 gap-4 text-center'>
-        <div className='col-span-2 flex justify-center'>
+      <div className='grid lg:grid-cols-5 gap-4 text-center'>
+        <div className='col-span-2 flex justify-center' data-aos='fade-right'>
           <Card className='w-96 mx-auto relative bg-black bg-opacity-40'>
             <CardHeader floated={false} className='h-auto bg-transparent'>
               <img src='/groom.png' alt='profile-picture' />
@@ -34,10 +40,10 @@ const Groom = () => {
             </CardBody>
           </Card>
         </div>
-        <div className='col-span-1 flex justify-center items-center'>
+        <div className=' col-span-2 lg:col-span-1 flex justify-center items-center '>
           <img src='./Icon-mid-01.png' alt='IconMid' />
         </div>
-        <div className='col-span-2 flex justify-center'>
+        <div className='col-span-2 flex justify-center' data-aos='fade-left'>
           <Card className='w-96 mx-auto relative bg-black bg-opacity-40'>
             <CardHeader floated={false} className='h-auto bg-transparent'>
               <img src='/groom.png' alt='profile-picture' />
@@ -57,9 +63,9 @@ const Groom = () => {
         <img
           src='./line-art.png'
           alt='line-art'
-          className='w-96 items-center mx-auto pb-7'
+          className='w-96 items-center mx-auto py-7'
         />
-        <p className='text-white w-3/4 mx-auto'>
+        <p className='text-white px-5 lg:w-3/4 mx-auto'>
           “Dalam sebuah pernikahan kalian disatukan demi sebuah kebahagiaan
           dengan janji hati untuk saling membahagiakan. Bersamaku engkau akan
           hidup selamanya karena Tuhan pasti akan memberikan karunia sebagai
