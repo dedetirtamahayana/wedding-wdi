@@ -134,7 +134,10 @@ body{
   }
   .spacer {
     height: 200px;
-}
+  }
+  body{
+    background-size:100%;
+  }
 }
 @media (min-width: 768px) and (max-width: 1180px) {
   .content-1 {
