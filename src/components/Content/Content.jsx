@@ -7,7 +7,7 @@ import {
   Button,
 } from "@material-tailwind/react";
 import { FaMapMarkerAlt, FaClock, FaCalendarCheck } from "react-icons/fa";
-import Countdown from "../Countdown/countdown";
+import Countdown from "../Countdown/Countdown";
 const Content = () => {
   return (
     <>
