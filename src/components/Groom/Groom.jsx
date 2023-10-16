@@ -16,7 +16,7 @@ const Groom = () => {
   }, []);
   return (
     <div className='container mx-auto text-center my-12 lg:my-24 overflow-hidden'>
-      <div className=' mb-10 lg:mb-5'>
+      <div className=' mb-10 lg:mb-5' data-aos='flip-up'>
         <h2 className='text-3xl text-gold custom-text'>Om Swastiastu</h2>
         <p className='text-white w-3/4 mx-auto'>
           Atas asung kerta wara nugraha Ida Sang Hyang Widhi Wasa, kami
