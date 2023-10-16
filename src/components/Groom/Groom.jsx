@@ -26,12 +26,15 @@ const Groom = () => {
       </div>
       <div className='grid lg:grid-cols-5 gap-4 text-center'>
         <div className='col-span-2 flex justify-center' data-aos='fade-right'>
-          <Card className='w-96 mx-auto relative bg-black bg-opacity-40'>
+          <Card className='w-64 lg:w-96 mx-auto relative bg-black bg-opacity-40'>
             <CardHeader floated={false} className='h-auto bg-transparent'>
               <img src='/groom.png' alt='profile-picture' />
             </CardHeader>
             <CardBody className='text-center relative'>
-              <Typography variant='h4' className='text-gold'>
+              <Typography
+                variant='h4'
+                className=' text-xl lg:text-2xl text-gold'
+              >
                 Kadek Wahyudi Remondo
               </Typography>
               <Typography className='font-medium text-white' textGradient>
@@ -44,12 +47,15 @@ const Groom = () => {
           <img src='./Icon-mid-01.png' alt='IconMid' />
         </div>
         <div className='col-span-2 flex justify-center' data-aos='fade-left'>
-          <Card className='w-96 mx-auto relative bg-black bg-opacity-40'>
+          <Card className='w-64 lg:w-96 mx-auto relative bg-black bg-opacity-40'>
             <CardHeader floated={false} className='h-auto bg-transparent'>
               <img src='/groom.png' alt='profile-picture' />
             </CardHeader>
             <CardBody className='text-center relative'>
-              <Typography variant='h4' className='text-gold'>
+              <Typography
+                variant='h4'
+                className=' text-xl lg:text-2xl text-gold'
+              >
                 Ni Made Vina Agustina Virgo
               </Typography>
               <Typography className='font-medium text-white' textGradient>
