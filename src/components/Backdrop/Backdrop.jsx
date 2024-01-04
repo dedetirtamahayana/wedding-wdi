@@ -5,9 +5,15 @@ const Backdrop = ({ onClick }) => {
   const router = useRouter();
   const { undangan } = router.query;
   return (
-    <div className='fixed top-0 left-0 w-full h-full flex flex-col items-center justify-center'>
-      <div className=' text-white z-10 text-center mb-4'>
-        <img src='/wedding.jpg' alt='img-circle' className='w-60 mx-auto' />
+    <div className='fixed top-0 left-0 w-full h-full flex flex-col items-center justify-center '>
+      <div className='fixed top-0 left-0 w-full h-full bg-backdrop'></div>
+      <div className='bg-black bg-opacity-50 absolute inset-0 '></div>
+      <div className=' text-white z-10  text-center mb-4'>
+        <img
+          src='/img-circle.png'
+          alt='img-circle'
+          className='w-60 mx-auto rounded-full '
+        />
         <h1 className='text-3xl custom-text mb-4 text-gold pt-5'>
           Wahyudi & Vina
         </h1>

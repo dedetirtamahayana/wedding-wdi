@@ -5,9 +5,10 @@ import Banner from "@/components/Banner/Banner";
 import Groom from "@/components/Groom/Groom";
 import Content from "@/components/Content/Content";
 import Gallery from "@/components/Gallery/Gallery";
-import LoveStory from "@/components/LoveStory/LoveStory";
 import RSVP from "@/components/RSVP/RSVP";
 import Gift from "@/components/Gift/Gift";
+import Banner2 from "@/components/Banner/Banner2";
+import Footer from "@/components/Footer/Footer";
 
 const Undangan = ({ setIsPlaying, isPlaying }) => {
   // Terima prop setIsPlaying dan isPlaying
@@ -35,24 +36,24 @@ const Undangan = ({ setIsPlaying, isPlaying }) => {
   };
 
   return (
-    <div className='relative animate__animated animate__fadeIn animate__slower'>
+    <div className='relative animate__animated animate__fadeIn animate__slower bg-undangan'>
       <div className='fixed bottom-96 right-0 mt-4 mr-4 z-50'>
         <button
           onClick={toggleAudio}
-          className='w-12 h-12 bg-white text-black hover:animate-pulse rounded-full flex items-center justify-center'
+          className='w-12 h-12 bg-black text-white hover:animate-pulse rounded-full flex items-center justify-center'
         >
           {audioPaused ? <FaVolumeMute /> : <FaVolumeUp />}
         </button>
       </div>
 
       <div className=''>
-        <Banner />
+        <Banner2 />
         <Groom />
         <Content />
         <Gallery />
-        <LoveStory />
         <RSVP />
         <Gift />
+        <Footer />
       </div>
 
       <audio id='myAudio' hidden>

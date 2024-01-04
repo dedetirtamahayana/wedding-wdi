@@ -41,35 +41,85 @@ const Gallery = () => {
           speed={500}
           plugins={[lgThumbnail, lgZoom]}
         >
-          <a href='./groom.png'>
-            <img className='w-60 inline-block p-2' src='./groom.png' alt='' />
+          <a
+            href='./2.jpg'
+            className='img-gallery w-auto inline-block relative overflow-hidden'
+          >
+            <img
+              className='lg:w-80 md:w-100 inline-block p-2 rounded-md'
+              src='./2.jpg'
+              alt=''
+            />
           </a>
-          <a href='./groom.png'>
-            <img className='w-60 inline-block p-2' src='./groom.png' alt='' />
+          <a
+            href='./3.jpg'
+            className='img-gallery w-auto inline-block relative overflow-hidden'
+          >
+            <img
+              className='lg:w-80 md:w-100 inline-block p-2 rounded-md'
+              src='./3.jpg'
+              alt=''
+            />
           </a>
-          <a href='./groom.png'>
-            <img className='w-60 inline-block p-2' src='./groom.png' alt='' />
+          <a
+            href='./6.jpg'
+            className='img-gallery w-auto inline-block relative overflow-hidden'
+          >
+            <img
+              className='lg:w-80 md:w-100 inline-block p-2 rounded-md'
+              src='./6.jpg'
+              alt=''
+            />
           </a>
-          <a href='./groom.png'>
-            <img className='w-60 inline-block p-2' src='./groom.png' alt='' />
+          <a
+            href='./7.jpg'
+            className='img-gallery w-auto inline-block relative overflow-hidden'
+          >
+            <img
+              className='lg:w-80 md:w-100 inline-block p-2 rounded-md'
+              src='./7.jpg'
+              alt=''
+            />
           </a>
-          <a href='./groom.png'>
-            <img className='w-60 inline-block p-2' src='./groom.png' alt='' />
+          <a
+            href='./9.jpg'
+            className='img-gallery w-auto inline-block relative overflow-hidden'
+          >
+            <img
+              className='lg:w-80 md:w-100 inline-block p-2 rounded-md'
+              src='./9.jpg'
+              alt=''
+            />
           </a>
-          <a href='./groom.png'>
-            <img className='w-60 inline-block p-2' src='./groom.png' alt='' />
+          <a
+            href='./16.jpg'
+            className='img-gallery w-auto inline-block relative overflow-hidden'
+          >
+            <img
+              className='lg:w-80 md:w-100 inline-block p-2 rounded-md'
+              src='./16.jpg'
+              alt=''
+            />
           </a>
-          <a href='./groom.png'>
-            <img className='w-60 inline-block p-2' src='./groom.png' alt='' />
+          <a
+            href='./19.jpg '
+            className='img-gallery w-auto inline-block relative overflow-hidden'
+          >
+            <img
+              className='lg:w-80 md:w-100 inline-block p-2 rounded-md'
+              src='./19.jpg'
+              alt=''
+            />
           </a>
-          <a href='./groom.png'>
-            <img className='w-60 inline-block p-2' src='./groom.png' alt='' />
-          </a>
-          <a href='./groom.png'>
-            <img className='w-60 inline-block p-2' src='./groom.png' alt='' />
-          </a>
-          <a href='./groom.png'>
-            <img className='w-60 inline-block p-2' src='./groom.png' alt='' />
+          <a
+            href='./20.jpg'
+            className='img-gallery w-auto inline-block relative overflow-hidden'
+          >
+            <img
+              className='lg:w-80 md:w-100 inline-block p-2'
+              src='./20.jpg'
+              alt=''
+            />
           </a>
         </LightGallery>
       </div>

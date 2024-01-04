@@ -28,7 +28,11 @@ const Groom = () => {
         <div className='col-span-2 flex justify-center' data-aos='fade-right'>
           <Card className='w-64 lg:w-96 mx-auto relative bg-black bg-opacity-40'>
             <CardHeader floated={false} className='h-auto bg-transparent'>
-              <img src='/groom.png' alt='profile-picture' />
+              <img
+                src='/groom1.png'
+                alt='profile-picture'
+                className='rounded-full'
+              />
             </CardHeader>
             <CardBody className='text-center relative'>
               <Typography
@@ -38,7 +42,13 @@ const Groom = () => {
                 Kadek Wahyudi Remondo
               </Typography>
               <Typography className='font-medium text-white' textGradient>
-                Putra Pertama Dari Pasangan Bapak Putra & Ibu Putri Bangli-Bali
+                Putra Kedua Dari Pasangan
+              </Typography>
+              <Typography className='font-medium text-white' textGradient>
+                I Ketut Sukerta & Ni Nyoman Mardani
+              </Typography>
+              <Typography className='font-medium text-white' textGradient>
+                Br.Guliang, Pejeng, Gianyar
               </Typography>
             </CardBody>
           </Card>
@@ -49,7 +59,11 @@ const Groom = () => {
         <div className='col-span-2 flex justify-center' data-aos='fade-left'>
           <Card className='w-64 lg:w-96 mx-auto relative bg-black bg-opacity-40'>
             <CardHeader floated={false} className='h-auto bg-transparent'>
-              <img src='/groom.png' alt='profile-picture' />
+              <img
+                src='/groom2.png'
+                alt='profile-picture'
+                className='rounded-full'
+              />
             </CardHeader>
             <CardBody className='text-center relative'>
               <Typography
@@ -59,7 +73,13 @@ const Groom = () => {
                 Ni Made Vina Agustina Virgo
               </Typography>
               <Typography className='font-medium text-white' textGradient>
-                Putra Pertama Dari Pasangan Bapak Putra & Ibu Putri Bangli-Bali
+                Putri Kedua Dari Pasangan
+              </Typography>
+              <Typography className='font-medium text-white' textGradient>
+                I Nyoman Shuartana & Ni Komang Sri Priandani
+              </Typography>
+              <Typography className='font-medium text-white' textGradient>
+                Br.Dlotpangkung, Budeng, Jembrana
               </Typography>
             </CardBody>
           </Card>

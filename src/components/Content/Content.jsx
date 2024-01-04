@@ -6,6 +6,7 @@ import {
   Typography,
   Button,
 } from "@material-tailwind/react";
+
 import { FaMapMarkerAlt, FaClock, FaCalendarCheck } from "react-icons/fa";
 import Countdown from "../Countdown/Countdown";
 const Content = () => {
@@ -38,24 +39,33 @@ const Content = () => {
               </Typography>
               <div className='flex items-center text-white text-xl lg:text-2xl py-3'>
                 <FaCalendarCheck className='mr-2 text-gold' />
-                <span>Senin, 22 Agustus 2022</span>
+                <span>Rabu, 10 April 2024</span>
               </div>
               <div className='flex items-center text-white text-xl lg:text-2xl py-3'>
                 <FaClock className='mr-2 text-gold' />
-                <span>10:00 WITA s/d Selesai</span>
+                <span>11:30 WITA s/d 14:45 WITA</span>
               </div>
               <div className='flex items-center text-white text-xl lg:text-2xl py-3'>
                 <FaMapMarkerAlt className='mr-2 text-gold' />
-                <span>Tembuku, Bangli-Bali</span>
+                <span>Beng, Gianyar, Bali</span>
               </div>
               <CardFooter className='p-7'>
                 <Button className='flex bg-gold w-52 items-center justify-center text-black'>
                   <FaMapMarkerAlt className='mr-2 text-black' />
-                  Lokasi
+                  Lokasi Acara
                 </Button>
               </CardFooter>
             </CardBody>
           </Card>
+          {/* <iframe
+            title='Google Map'
+            width='100%'
+            height='400'
+            frameBorder='0'
+            style={{ border: 0 }}
+            src='https://www.google.com/maps/place/Taman+Prakerti+Bhuana/@-8.525692,115.3259945,17z/data=!3m1!4b1!4m6!3m5!1s0x2dd216542cc4ede7:0x2308fdb0be993019!8m2!3d-8.525692!4d115.3285694!16s%2Fg%2F11f01nhrg9?hl=id-ID&entry=ttu'
+            allowFullScreen
+          ></iframe> */}
           <div className='mt-8'>
             <p className='text-white w-3/4 mx-auto mb-6'>
               Merupakan suatu kehormatan dan kebahagiaan bagi kami sekeluarga
