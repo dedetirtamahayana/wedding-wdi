@@ -43,7 +43,7 @@ const Content = () => {
               </div>
               <div className='flex items-center text-white text-xl lg:text-2xl py-3'>
                 <FaClock className='mr-2 text-gold' />
-                <span>11:30 WITA s/d 14:45 WITA</span>
+                <span>12:30 WITA s/d 15:00 WITA</span>
               </div>
               <div className='flex items-center text-white text-xl lg:text-2xl py-3'>
                 <FaMapMarkerAlt className='mr-2 text-gold' />

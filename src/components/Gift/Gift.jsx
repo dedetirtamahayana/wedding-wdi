@@ -11,7 +11,7 @@ const Gift = () => {
       <div className='text-center '>
         <h2 className='text-3xl text-gold custom-text'>Wedding Gift</h2>
         <div className='text-white'>
-          <p className='w-3/5 mx-auto py-3'>
+          <p className='lg:w-3/5 md:w-11/12 mx-auto py-3'>
             Tanpa mengurangi rasa hormat, bagi yang ingin memberikan Wedding
             Gift sebagai hadiah untuk pernikahan kami, silakan transfer ke
             rekening
