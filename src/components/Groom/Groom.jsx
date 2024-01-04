@@ -79,7 +79,7 @@ const Groom = () => {
                 I Nyoman Shuartana & Ni Komang Sri Priandani
               </Typography>
               <Typography className='font-medium text-white' textGradient>
-                Br.Dlotpangkung, Budeng, Jembrana
+                Br.Dlodpangkung, Budeng, Jembrana
               </Typography>
             </CardBody>
           </Card>

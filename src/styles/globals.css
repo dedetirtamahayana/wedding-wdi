@@ -95,15 +95,7 @@
   left: 0;
   position: absolute;
 }
-.section-bg-story{
-  position: relative;
-  overflow: hidden;
-  z-index: 1;
-  background-image: url(../../public/love-story.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-}
+
 .border-top{
   position: relative;
   border-style: solid;
